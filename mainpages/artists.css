@@ -1,0 +1,81 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  background-color: #344955;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: "Josefin Slab", serif;
+}
+
+a{
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.card :hover{
+    background-color:#B2A4FF;
+}
+
+
+
+p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: bold;
+    font-family: "Madimi One", sans-serif;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.dancer {
+    width: calc(50% - 20px); /* Moitié de la largeur de la page avec un espace de 20px */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.dancer:nth-child(even) {
+    margin-left: 20px; /* Ajoute un espace à gauche pour les éléments pairs */
+}
+.dancer.les-twins {
+    background-image: url("images/twins.jpg");
+}
+.dancer.leejung {
+    background-image: url("images/leejung.jpg");
+}
+.dancer.kristen {
+    background-image: url("images/kristen.jpg");
+}
+.dancer.lia {
+    background-image: url("images/lia.jpg");
+}
+.dancer.nick {
+    background-image: url("images/nick.jpg");
+}
+.dancer.goebel {
+    background-image: url("images/goebel.jpg");
+}
+.dancer.rubix {
+    background-image: url("images/rubix.jpg");
+}
+.dancer.sean {
+    background-image: url("images/sean.jpg");
+}
+.dancer.ricardo {
+    background-image: url("images/Ricardo.jpg");
+}
+
+

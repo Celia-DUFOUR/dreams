@@ -1,0 +1,36 @@
+body{
+  font-family: 'Raleway', sans-serif;
+    line-height: 1.6;
+    background-color: #344955;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: "Josefin Slab", serif;
+  font-size: 50px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.card img {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+}
+.card h3 {
+  flex-grow: 1;
+  padding-left: 20px;
+  font-size:40px;
+  color: white;
+}
+.card p{
+  flex-grow: 1;
+  padding-left: 20px;
+  color: white;
+  font-family: "Crimson Pro", serif;
+}

@@ -1,0 +1,38 @@
+body{
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.6;
+  background-color: #344955;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: white;
+    font-family: "Josefin Slab", serif;
+}
+h2{
+   text-align: center;
+   margin-bottom: 20px;
+   color: white;
+   font-family: "Josefin Slab", serif;
+}
+
+.workshop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.workshop-details {
+    width: calc(50% - 20px); /* Moitié de la largeur de la page avec un espace de 20px */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.workshop-details:nth-child(even) {
+    margin-left: 20px; /* Ajoute un espace à gauche pour les éléments pairs */
+}
